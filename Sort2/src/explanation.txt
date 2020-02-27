@@ -1,0 +1,22 @@
+   /`-.   /`-..-,.-.,-.      )\   )\   /`-.    )\.-.   )\.-. )\.---. )\  )\         )\.-.   /`-.   /`-..```./( )\    /(        )\.-.   .-./(   )\.-..'( )\  )\   )\.-.         )\.--.    .'(.'( .')     .')  .```./(
+ ,' _  \,' _  ) ,, ,. (     (  ',/ / ,' _  \ ,'     ),'     |   ,-._(  \, /       ,' ,-,_),' _  \,' _  )_,-,  )\ (_.' /      ,' ,-,_),'     ),'     )  |  \, / ,' ,-,_)       (   ._.',')\  )  | /     ( /   )_,-,  )
+(  '-' (  '-' (( |(  )/      )    ( (  '-' ((  .-, ((  .-, ( \  '-,  ) \ (       (  .   _(  '-' (  '-' (   / / _)  _.'      (  .   _(  .-, ((  .-, () ( ) \ ( (  .   __        `-.`. (  '/ /) ( ))      ))       / / _
+ ) ,._.')   _  ) ) \        (  \(\ \ )   _  )) '._\ )) '._\ ) ) ,-` ( ( \ \       ) '..' )) ,_ .')   _  ) / `-` ) /          ) '..' )) '._\ )) '._\ )  | ( \ \ ) '._\ _)      ,_ (  \ )   ( \  ))'._.-. )'._.-. / `-` )
+(  '   (  ,' ) \ \ (         `.) /  |  ,' ) (  ,   ((  ,   ( (  ``-. `.)/  )     (  ,   ((  ' ) (  ,' ) \(     (  \         (  ,   ((  ,   ((  ,   ( ) \`.)/  |  ,   (       (  '.)  |  .\ \ ) (       |       |     (
+ )/     )/    )/  )/             '.( )/    )/)/ ._.' )/ ._.'  )..-.(    '.(       )/'._.' )/   )/)/    )/ ).',,').'          )/'._.' )/ ._.' )/ ._.'  )/   '.( )/'._.'        '._,_.' )/  )/  )/)/,__.' )/,__.' ).',,'
+
+Okay all I did was first iterate through the unsorted array and remove all of the leading zeros, then I ran the unsorted array through quick sort.
+
+Time complexity worst case would be n + 2nd + n^2 = n^2
+
+n is because we iterate through the whole array
+
+2nd is the two for loops that iterate through each individual value of the array. Worse case 2nd because we are assuming every value is "0000".
+
+Anyways I hope this is enough writing...this part is worth 20 percent of the grade. To be fair I did spend like four hours trying to implement some form
+of radix sorting but I was going to throw a chair or something so this is all I got. <3
+
+
+
+
+
